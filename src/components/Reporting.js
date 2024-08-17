@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import '../styles/Reporting.css';
 import jsPDF from 'jspdf';
+import Navbar from './Navbar';
 import html2canvas from 'html2canvas';
 
 const Reporting = () => {
@@ -35,6 +36,8 @@ const Reporting = () => {
   };
 
   return (
+    <div className="main-content">
+        <Navbar />
     <div className="dashboard-container">
       <Sidebar />
       <div className="dashboard-content">
@@ -50,6 +53,7 @@ const Reporting = () => {
           {/* Add more content here that you want to include in the PDF */}
         </div>
       </div>
+    </div>
     </div>
   );
 };

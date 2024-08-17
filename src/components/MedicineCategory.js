@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import '../styles/MedicineCategory.css';
 
 const MedicineCategory = () => {
@@ -40,6 +41,8 @@ const MedicineCategory = () => {
   };
 
   return (
+    <div className="main-content">
+        <Navbar />
     <div className="dashboard-container">
       <Sidebar />
       <div className="dashboard-content">
@@ -57,6 +60,7 @@ const MedicineCategory = () => {
           <button type="submit">Add Category</button>
         </form>
       </div>
+    </div>
     </div>
   );
 };

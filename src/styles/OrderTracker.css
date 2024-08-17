@@ -6,14 +6,14 @@
 .order-tracker-container {
     flex: 1;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: white;
     overflow-x: auto; /* Add horizontal scrolling if needed */
 }
 
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: #007bff;
+    color: #4d6783;
     font-size: 2em;
 }
 
@@ -21,6 +21,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
     gap: 20px; /* Space between cards */
+    
 }
 
 .order-card {
@@ -30,7 +31,8 @@ h1 {
     border: 1px solid #dee2e6;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-    background-color: #abdcfd; 
+    background: linear-gradient(135deg, rgba(168, 222, 240, 0.8), rgba(46, 148, 211, 0.8)); /* Light blue pastel gradient */
+
     transition: box-shadow 0.3s ease; 
 }
 
@@ -48,7 +50,7 @@ h1 {
 }
 
 .order-card p strong {
-    color: #007bff;
+    color: #101214;
 }
 
 .progress-bar {

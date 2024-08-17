@@ -2,6 +2,8 @@
 
 .dashboard-container {
     display: flex;
+    
+   
 }
 
 .main-content {
@@ -17,18 +19,22 @@
     align-items: center;
     flex: 1;
     padding: 20px;
-    background-color: #f8f9fa; /* Background color for the page */
+    background-color: white; /* Background color for the page */
+    width: 500px;
+    padding-left: 300px;
 }
 
 .order-form {
     max-width: 600px;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     box-sizing: border-box; /* Include padding in width calculations */
+    
+    transition: box-shadow 0.3s ease; 
 }
 
 .order-form h1 {
@@ -63,8 +69,13 @@
     background-color: #007bff;
     color: white;
     cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
 }
 
 .order-form button:hover {
     background-color: #0056b3;
+}
+
+.order-form:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
 }

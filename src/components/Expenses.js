@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import '../styles/Expenses.css';
 
 const Expenses = () => {
@@ -46,6 +47,8 @@ const Expenses = () => {
   };
 
   return (
+    <div className="main-content">
+        <Navbar />
     <div className="dashboard-container">
       <Sidebar />
       <div className="dashboard-content">
@@ -81,6 +84,7 @@ const Expenses = () => {
           <button type="submit">Add Expense</button>
         </form>
       </div>
+    </div>
     </div>
   );
 };

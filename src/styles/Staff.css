@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-content: center ;
+    padding-left: 35%;
   }
   
   .staff-form label {
@@ -14,8 +16,9 @@
     padding: 8px;
     border: 1px solid #444;
     border-radius: 4px;
-    background-color: #2d334a;
-    color: #ffffff;
+    background-color:white;
+    color: black;
+    width: 40%;
   }
   
   .staff-form button {
@@ -25,6 +28,8 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    width: 42%;
+    align-content: center;
     color: #1b1f27;
   }
   
