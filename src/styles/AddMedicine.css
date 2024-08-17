@@ -1,52 +1,52 @@
 .dashboard-container {
-  display: flex;
-}
-
-.dashboard-content {
-  flex: 1;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.add-medicine-form {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.form-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
-label {
-  display: flex;
-  flex-direction: column;
-  color:black;
-}
-
-input {
-  padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #000000;
-  border-radius: 4px;
-}
-
-.submit-button {
-  grid-column: span 2;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #4CAF50;
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.submit-button:hover {
-  background-color: #45a049;
-}
+  padding: 30px;
+ }
+ 
+ .dashboard-content {
+   flex: 1;
+   padding: -40px;
+ }
+ 
+ h1 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .add-medicine-form {
+   max-width: 800px;
+   margin: 0 auto;
+ }
+ 
+ .form-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+ }
+ 
+ label {
+   display: flex;
+   flex-direction: column;
+   color:black;
+ }
+ 
+ input {
+   padding: 8px;
+   margin-top: 5px;
+   border: 1px solid #000000;
+   border-radius: 4px;
+ }
+ 
+ .submit-button {
+   grid-column: span 2;
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: #4CAF50;
+   color: rgb(0, 0, 0);
+   font-size: 16px;
+   cursor: pointer;
+ }
+ 
+ .submit-button:hover {
+   background-color: #45a049;
+ }

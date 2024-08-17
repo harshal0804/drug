@@ -2,7 +2,12 @@ import React from 'react';
 import '../styles/Dashboard.css';
 import Sidebar from './Sidebar';
 import Navbar from './Navbar'; // Assuming Navbar is defined in a separate file
-
+<div className="dashboard">
+      <h1>
+        <span className="material-icons">dashboard</span> Dashboard
+      </h1>
+      <p>Welcome to the inventory management system dashboard!</p>
+    </div>
 function Dashboard() {
   return (
     <div className="dashboard-container">
@@ -12,19 +17,19 @@ function Dashboard() {
         <div className="dashboard-content">
           <div className="dashboard">
             <div className="overview-cards">
-              <div className="card">
+              <div className="card_1">
                 <h3>Total Profit</h3>
                 <p>₹1,03,748</p>
               </div>
-              <div className="card">
+              <div className="card_2">
                 <h3>Inventory Stock</h3>
                 <p>1,432</p>
               </div>
-              <div className="card">
+              <div className="card_3">
                 <h3>Out of Stock</h3>
                 <p>389</p>
               </div>
-              <div className="card">
+              <div className="card_4">
                 <h3>Expired</h3>
                 <p>24</p>
               </div>
@@ -33,8 +38,8 @@ function Dashboard() {
             <div className="charts-section">
               <div className="sales-overview chart-card">
                 <h3>Sales Overview</h3>
+                <img src="https://www.google.com/imgres?q=pie%20chart&imgurl=https%3A%2F%2Fwww.jaspersoft.com%2Fcontent%2Fdam%2Fjaspersoft%2Fimages%2Fgraphics%2Finfographics%2Fpie-chart-example.svg&imgrefurl=https%3A%2F%2Fwww.jaspersoft.com%2Farticles%2Fwhat-is-a-pie-chart&docid=pG8qJ3dS0a8ptM&tbnid=pjQZqiHlIaW-3M&vet=12ahUKEwiIzoaQmvuHAxVq3TgGHX_JMp4QM3oECBYQAA..i&w=820&h=410&hcb=2&ved=2ahUKEwiIzoaQmvuHAxVq3TgGHX_JMp4QM3oECBYQAA" alt="Sales Overview" />
                 <div className="chart-placeholder">
-                  <img src="src/components/source/chart1.jpg" alt="description" />
                 </div>
               </div>
               <div className="purchase-report chart-card">

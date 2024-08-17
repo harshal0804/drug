@@ -30,8 +30,13 @@ h1 {
     border: 1px solid #dee2e6;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
+    background-color: #abdcfd; 
+    transition: box-shadow 0.3s ease; 
 }
 
+.order-card:hover { 
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+} 
 .order-card h2 {
     margin-bottom: 15px;
     color: #343a40;

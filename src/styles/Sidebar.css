@@ -1,32 +1,57 @@
 .sidebar {
-    width: 250px;
-    height: 700px;
-    background-color: #2d334a;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .sidebar h2 {
-    color: #ffffff;
-    margin-bottom: 100px;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-    padding: 5px;
-  }
-  
-  .sidebar ul li {
-    margin: 15px 0;
-  }
-  
-  .sidebar ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .sidebar ul li a:hover {
-    color: #61dafb;
-  }
-  
+  width: 250px;
+  height: 100%;
+  background-color: #2d334a;
+  padding: 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 60px;
+}
+
+.material-icons {
+  font-size: 24px; /* Change the size of the icons */
+  vertical-align: middle; /* Align the icons with text */
+  margin-right: 8px; /* Add space between the icon and text */
+  color: white; /* Change the color of the icons */
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0; /* Reset padding */
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a:hover {
+  color: #61dafb;
+}
+
+.logout-button {
+  margin-top: auto;
+  padding: 10px 20px;
+ margin-top: 40px;
+ margin-left: 80px;
+  background-color: #dfe0e9;
+  color: rgb(17, 14, 14);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e53935;
+}

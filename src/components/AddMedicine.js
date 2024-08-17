@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import '../styles/AddMedicine.css'; // Ensure this file contains the necessary styles
 
 const AddMedicine = () => {
@@ -54,6 +55,8 @@ const AddMedicine = () => {
     };
 
     return (
+        <div className="main-content">
+        <Navbar />
         <div className="dashboard-container">
             <Sidebar />
             <div className="dashboard-content">
@@ -104,6 +107,7 @@ const AddMedicine = () => {
                     <button type="submit" className="submit-button">Add Medicine</button>
                 </form>
             </div>
+        </div>
         </div>
     );
 };
