@@ -1,9 +1,12 @@
 import React from 'react';
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import '../styles/AllSales.css';
 
 const AllSales = () => {
   return (
+    <div className="main-content">
+        <Navbar />
     <div className="dashboard-container">
       <Sidebar />
       <div className="dashboard-content">
@@ -28,6 +31,7 @@ const AllSales = () => {
           </tbody>
         </table>
       </div>
+    </div>
     </div>
   );
 };

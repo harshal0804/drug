@@ -38,13 +38,17 @@ function Dashboard() {
             <div className="charts-section">
               <div className="sales-overview chart-card">
                 <h3>Sales Overview</h3>
-                <img src="https://www.google.com/imgres?q=pie%20chart&imgurl=https%3A%2F%2Fwww.jaspersoft.com%2Fcontent%2Fdam%2Fjaspersoft%2Fimages%2Fgraphics%2Finfographics%2Fpie-chart-example.svg&imgrefurl=https%3A%2F%2Fwww.jaspersoft.com%2Farticles%2Fwhat-is-a-pie-chart&docid=pG8qJ3dS0a8ptM&tbnid=pjQZqiHlIaW-3M&vet=12ahUKEwiIzoaQmvuHAxVq3TgGHX_JMp4QM3oECBYQAA..i&w=820&h=410&hcb=2&ved=2ahUKEwiIzoaQmvuHAxVq3TgGHX_JMp4QM3oECBYQAA" alt="Sales Overview" />
+              
                 <div className="chart-placeholder">
+                <img src="./graph.jpeg" alt="Sales Overview" />
                 </div>
               </div>
               <div className="purchase-report chart-card">
                 <h3>Purchase Report</h3>
-                <div className="chart-placeholder">[harshal]</div>
+                <div className="chart-placeholder">
+                <img src="./piechart.jpeg" alt="purchase report" />
+
+                </div>
               </div>
             </div>
 

@@ -5,7 +5,7 @@ import '../styles/Sidebar.css';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2>Abto Software</h2>
+    
       <ul>
         <li><Link to="/">Dashboard</Link></li>
         <li><Link to="/medicine-list">Medicine List</Link></li>

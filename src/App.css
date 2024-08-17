@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #1b1f27;
+  background-color: white;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -21,4 +21,5 @@ body {
 .dashboard-content {
   padding: 20px;
   flex-grow: 1;
+  background-color: white;
 }

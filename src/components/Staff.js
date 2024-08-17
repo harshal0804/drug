@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import '../styles/Staff.css';
 
 const Staff = () => {
@@ -54,6 +55,8 @@ const Staff = () => {
   };
 
   return (
+    <div className="main-content">
+        <Navbar />
     <div className="dashboard-container">
       <Sidebar />
       <div className="dashboard-content">
@@ -92,6 +95,7 @@ const Staff = () => {
           <button type="submit">Add Staff</button>
         </form>
       </div>
+    </div>
     </div>
   );
 };

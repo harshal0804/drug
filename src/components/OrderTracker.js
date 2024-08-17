@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/OrderTracker.css'; // Ensure the correct file path
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 
 const OrderTracker = () => {
     const [orders] = useState([
@@ -44,6 +45,8 @@ const OrderTracker = () => {
     ]);
 
     return (
+        <div className="main-content">
+        <Navbar />
         <div className="dashboard-container">
             <Sidebar />
             <div className="order-tracker-container">
@@ -67,6 +70,7 @@ const OrderTracker = () => {
                     ))}
                 </div>
             </div>
+        </div>
         </div>
     );
 };
