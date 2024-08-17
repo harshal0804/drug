@@ -1,0 +1,54 @@
+.dashboard-container {
+  display: flex;
+  width: 100%;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa; /* Background color for content area */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+  font-size: 2em;
+}
+
+.table-wrapper {
+  overflow-x: auto; /* Allow horizontal scrolling within this wrapper */
+  margin-top: 40px; /* Add gap above the table */
+}
+
+.medicine-table {
+  width: 100%; /* Full width of the container */
+  border-collapse: collapse;
+  background-color: #ffffff; /* Ensure table background color */
+  min-width: 1000px; /* Adjust minimum width if needed */
+}
+
+.medicine-table th, .medicine-table td {
+  border: 1px solid #444;
+  padding: 12px; /* Increase padding for better readability */
+  text-align: left;
+  color: #333; /* Set a visible text color */
+}
+
+.medicine-table th {
+  background-color: #2d334a; /* Ensure background color for table headers */
+  color: #ffffff; /* Text color for table headers */
+}
+
+.medicine-table tr:nth-child(even) {
+  background-color: #f0f0f0; /* Lighter background color for even rows for better contrast */
+}
+
+.medicine-table tr:hover {
+  background-color: #e0e0e0; /* Highlight color on hover */
+}
+
+.medicine-table td:last-child {
+  text-align: center; /* Center-align options column */
+}
