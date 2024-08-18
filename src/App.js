@@ -10,7 +10,6 @@ import Reporting from './components/Reporting';
 import Staff from './components/Staff';
 import MapPage from './components/MapPage';
 import OrderTracker from './components/OrderTracker';
-import Navbar from './components/Navbar';
 import OrderForm from './components/OrderForm';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
@@ -24,8 +23,7 @@ function PrivateRoute({ element }) {
 function App() {
   return (
     <Router>
-      <div className="app-container">
-        <Navbar />
+      
         <Routes>
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
@@ -41,7 +39,7 @@ function App() {
           <Route path="/OrderTracker" element={<PrivateRoute element={<OrderTracker />} />} />
           <Route path="/OrderForm" element={<PrivateRoute element={<OrderForm />} />} />
         </Routes>
-      </div>
+     
     </Router>
   );
 }
